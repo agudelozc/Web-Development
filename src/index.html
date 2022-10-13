@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaninoLike</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Panel de navegacion -->
+    <nav class="navbar navbar-expand-sm" id="nav">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <img src="/Front/static/icons/logo.png" alt="Logo" class="rounded-pill"> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Front/src/index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Front/src/pages/qsomos.html">Quienes somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Front/src/pages/shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Front/src/pages/contactanos.html">Contactános</a>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button type="button" id="boton-ingreso" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">Ingresar</button>
+                        <form class="dropdown-menu p-4">
+                            <div class="mb-3">
+                                <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                                <label class="form-check-label" for="dropdownCheck2">
+                                Remember me
+                                </label>
+                                </div>
+                            </div>
+                            <button type="submit" id="btn-login" class="btn btn-primary">Log in</button>
+                            <a class="dropdown-item" href="pages/signUp-copia.html">New around here? Sign up</a>
+                            <a class="dropdown-item" href="#">Forgot password?</a>
+                        </form>
+                    </div>
+                    <!-- <button type="button" id="boton-ingreso" class="btn btn-dark">Ingresar</button> -->
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div>
+        <div>
+            <h3 id="text-big">¡Tu mejor sitio para web para<br>
+                agendar citas de baño y<br> 
+                peluquería de tus peluditos!</h3>
+            <p id="subtext">Canino Like, cuenta con el servicio de baño, rooming y peluquería canina y felina <br>
+                siempre enfocado a realizar la belleza de la mascota, guindonos por los estandares <br>
+                mundiales de cada una de las razas, implementando técnicas de vanguardia y utilizando <br>
+                mmateriales e insumos de primera calidad.
+            </p>
+        </div>
+        <div>
+            <button type="button" id="boton-agenda" class="btn btn-dark ">Agendar cita</button>
+        </div>
+        <div>
+            <h4 id="galeria">Galería</h4>
+            <p id="mas">Ven y conoces un poco más de nuestros<br>
+                servicios, siempre sera un gusto atenderte!
+            </p>
+            <a id="vermas" href="#">Ver más</a>
+        </div>
+    </div>
+
+    <div class="fondo">
+        <div>
+            <h4>En Canino Like, sabemos la importancia del cuidado de tu mascota!</h4>
+            <p>Porque los perros no son toda tu vida, pero hacen <br> tu vida completa.</p>
+        </div>
+        <div class="fondo-uno">
+            <h7>SERVICIOS</h7>
+            <ul>
+                <li >
+                    <a href="#">Historia de la empresa</a> 
+                </li>
+                <li>
+                    <a href="#">Sobre nosotros</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+                <li>
+                    <a href="#">Servicios adicionales</a>
+                </li>
+                <li>
+                    <a href="#">Politica de privacidad</a>
+                </li>
+            </ul>
+        </div>
+        <div class="fondo-dos">
+            <h7>INFORMACIÓN DE CONTACTO</h7>
+            <p>Canino Like, Colombia</p>
+            <p>+57 123 455 8877</p>
+            <p>info@caninolike.com</p>
+        </div>
+
+        <section class="social">
+            <p>SIGUENOS EN</p>
+            <div class="links">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-google"></i>
+                </a>
+            </div>
+        </section>
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">SUBSCRÍBASE AL BOLETÍN DE NOTICIAS</label>
+            <input type="email" placeholder="Ingresa tu correo" class="form-control" id="exampleInputEmail1" aria-describedby="email">
+        </div>
+
+        <div>
+            <button id="btn-sub" type="submit" class="btn btn-dark">SUBSCRIBIRME</button>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <p>COPYRIGHT <i class="fas fa-copyright"></i> 2022 CANINO LIKE - TODOS LOS DERECHOS RESERVADOS</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
